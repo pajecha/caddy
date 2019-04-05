@@ -1,24 +1,21 @@
-:80 {
-    gzip
-    cache
-    realip
-    proxy / http://frontend-service:8080
-    log / stdout
+0.0.0.0
+gzip
+cache
+realip
+proxy / http://frontend-service:8080
+log / stdout
 
-    header / {
+header / {
 
-        # Enable cross site filter (XSS) and tell browser to block detected attacks
-        X-XSS-Protection "1; mode=block"
-        # Prevent some browsers from MIME-sniffing a response away from the declared Content-Type
-        X-Content-Type-Options "nosniff"
-        # Disallow the site to be rendered within a frame (clickjacking protection)
-        X-Frame-Options "DENY"
-    }
+    # Enable cross site filter (XSS) and tell browser to block detected attacks
+    X-XSS-Protection "1; mode=block"
+    # Prevent some browsers from MIME-sniffing a response away from the declared Content-Type
+    X-Content-Type-Options "nosniff"
+    # Disallow the site to be rendered within a frame (clickjacking protection)
+    X-Frame-Options "DENY"
+}
 
-    expires {
-      match .*.js$ 10d
-      match .*.css$ 10d
-    }
-
-
+expires {
+    match .*.js$ 10d
+    match .*.css$ 10d
 }
