@@ -2,7 +2,7 @@
 
 FROM abiosoft/caddy:builder as builder
 
-ARG version="0.11.0"
+ARG version="0.11.5"
 ARG plugins="cors,realip,expires,cache,nobots"
 
 # process wrapper
@@ -15,11 +15,16 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bi
 
 FROM alpine:3.8
 
-ARG version="0.11.0"
+ARG version="0.11.5"
 LABEL caddy_version="$version"
 
 # Let's Encrypt Agreement
 ENV ACME_AGREE="false"
+
+# Telemetry stats
+ENV ENABLE_TELEMETRY="false"
+
+RUN apk add --no-cache openssh-client git
 
 # validate install
 RUN /usr/bin/caddy -version
