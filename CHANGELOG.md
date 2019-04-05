@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.1...v) (2019-04-05)
+
+
+### Bug Fixes
+
+* **Dockerfile:** Added missing caddy install ([cd2d28f](https://github.com/pajecha/caddy/commit/cd2d28f))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.0...v) (2019-04-05)
 
 
