@@ -2,7 +2,7 @@
 gzip
 cache
 realip
-proxy / http://frontend-service:8080
+proxy / http://frontend-service
 log / stdout
 
 header / {
