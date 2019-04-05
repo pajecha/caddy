@@ -26,6 +26,9 @@ ENV ENABLE_TELEMETRY="false"
 
 RUN apk add --no-cache openssh-client git
 
+# install caddy
+COPY --from=builder /install/caddy /usr/bin/caddy
+
 # validate install
 RUN /usr/bin/caddy -version
 RUN /usr/bin/caddy -plugins
