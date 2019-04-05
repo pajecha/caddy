@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.3...v) (2019-04-05)
+
+
+### Bug Fixes
+
+* **Caddyfile:** proxy server error ([913faad](https://github.com/pajecha/caddy/commit/913faad))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.2...v) (2019-04-05)
 
 
