@@ -4,7 +4,7 @@ cache
 realip
 proxy / http://frontend-service
 log / stdout
-push
+push /dist
 
 header / {
 
