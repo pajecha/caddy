@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.4...v) (2019-04-06)
+
+
+### Features
+
+* **Caddyfile:** added push plugin ([8171fbf](https://github.com/pajecha/caddy/commit/8171fbf))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.3...v) (2019-04-05)
 
 
