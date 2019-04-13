@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.6...v) (2019-04-13)
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [](https://github.com/pajecha/caddy/compare/v1.1.0-rc.5...v) (2019-04-06)
 
 
