@@ -2,7 +2,11 @@
 gzip
 cache
 realip
-proxy / http://frontend-service
+proxy / http://frontend-service {
+    transparent
+    timeout 90s
+}
+
 log / stdout
 push /dist
 
