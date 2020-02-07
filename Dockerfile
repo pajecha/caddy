@@ -15,7 +15,7 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bi
 
 FROM alpine:3.8
 
-ARG version="0.11.5"
+ARG version="1.0.3"
 LABEL caddy_version="$version"
 
 # Let's Encrypt Agreement
