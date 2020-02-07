@@ -2,7 +2,7 @@
 gzip
 cache
 realip
-proxy / http://frontend-service {
+proxy / frontend-service:8080 {
     transparent
     timeout 90s
 }
