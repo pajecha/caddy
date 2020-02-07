@@ -2,7 +2,7 @@
 
 FROM abiosoft/caddy:builder as builder
 
-ARG version="0.11.5"
+ARG version="1.0.3"
 ARG plugins="cors,realip,expires,cache,nobots"
 
 # process wrapper
